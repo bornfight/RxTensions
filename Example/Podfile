@@ -1,0 +1,6 @@
+use_frameworks!
+target 'RXTensions_Tests' do
+  pod 'RXTensions', :path => '../'
+  
+  
+end
