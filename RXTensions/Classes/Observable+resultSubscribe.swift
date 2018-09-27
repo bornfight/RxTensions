@@ -1,7 +1,7 @@
 import RxSwift
 import Alamofire
 
-extension Observable {
+public extension Observable {
     /// Subscribe to an observable containing a `Result<T>`
     func subscribe<R>(
         onSuccess: ((R) -> Void)?,

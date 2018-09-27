@@ -7,7 +7,7 @@
 
 import RxSwift
 
-extension ObservableType {
+public extension ObservableType {
     func filterNotNil<T>() -> Observable<T> where Self.E == Optional<T> {
         return flatMapLatest { thing -> Observable<T> in
             return thing.map(Observable.just) ?? .empty()
