@@ -15,11 +15,11 @@
 		607FACE51AFB9204008FA782 /* RXTensions_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RXTensions_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8387EEE80FCEB2E8B1F685BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8387EEE80FCEB2E8B1F685BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9C68AA326313DA53820DD94C /* Pods-RXTensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXTensions_Tests/Pods-RXTensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A91546F794286885EFF51762 /* RXTensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RXTensions.podspec; path = ../RXTensions.podspec; sourceTree = "<group>"; };
+		A91546F794286885EFF51762 /* RXTensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RXTensions.podspec; path = ../RXTensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B875E8AD911A87E437618179 /* Pods_RXTensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXTensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E23F4593846EF084ED52A5A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E23F4593846EF084ED52A5A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E799C70B17F07D37D537A48B /* Pods-RXTensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXTensions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXTensions_Tests/Pods-RXTensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -202,12 +198,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RXTensions_Tests/Pods-RXTensions_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RXTensions/RXTensions.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RXTensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
