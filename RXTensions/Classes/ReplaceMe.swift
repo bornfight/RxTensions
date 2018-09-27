@@ -1,12 +1,12 @@
 import RxSwift
-import Result
+import Alamofire
 
 extension Observable {
     /// Subscribe to an observable containing a `Result<T>`
     func subscribe<R>(
         onSuccess: ((R) -> Void)?,
         onError: ((Error) -> Void)?)
-    -> Disposable where Element == Result<R, Error>
+    -> Disposable where Element == Result<R>
     {
         let disposable = Disposables.create()
         
