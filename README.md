@@ -23,8 +23,7 @@ pod 'RXTensions'
 ## Author
 
 d-srd, dino.srdoc@bornfight.com \
-Made with ❤️ at Bornfight. \
-🥥
+🥥 Made with ❤️ at Bornfight. 🥥
 
 ## License
 
