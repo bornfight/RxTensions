@@ -30,5 +30,12 @@
     "Alamofire": [
 
     ]
-  }
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "RXTensions/Tests/*.{swift}"
+    }
+  ]
 }

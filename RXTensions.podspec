@@ -28,6 +28,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'd-srd' => 'dino.srdoc@degordian.com' }
   s.source           = { :git => 'https://d-srd@bitbucket.org/degordianmobile/rxtensionpod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.test_spec 'Tests' do |test_spec|
+    test_spec.source_files = 'RXTensions/Tests/*.{swift}'
+  end  
 
   s.ios.deployment_target = '8.0'
 
