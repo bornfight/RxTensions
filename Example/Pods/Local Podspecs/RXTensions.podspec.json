@@ -35,6 +35,7 @@
     {
       "name": "Tests",
       "test_type": "unit",
+      "requires_app_host": true,
       "source_files": "RXTensions/Tests/*.{swift}"
     }
   ]

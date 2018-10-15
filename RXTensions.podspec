@@ -27,8 +27,8 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'd-srd' => 'dino.srdoc@degordian.com' }
   s.source           = { :git => 'https://d-srd@bitbucket.org/degordianmobile/rxtensionpod.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.test_spec 'Tests' do |test_spec|
+    test_spec.requires_app_host = true
     test_spec.source_files = 'RXTensions/Tests/*.{swift}'
   end  
 
