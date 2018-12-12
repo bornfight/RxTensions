@@ -6,9 +6,16 @@
 //
 
 import RxSwift
+import RxCocoa
 
 public extension ObservableType {
     func asVoid() -> Observable<Void> {
+        return map { _ in () }
+    }
+}
+
+public extension SharedSequenceConvertibleType {
+    func asVoid() -> SharedSequence<SharingStrategy, Void> {
         return map { _ in () }
     }
 }
