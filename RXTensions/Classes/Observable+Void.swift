@@ -8,7 +8,7 @@
 import RxSwift
 
 public extension ObservableType {
-    func void() -> Observable<Void> {
+    func asVoid() -> Observable<Void> {
         return map { _ in () }
     }
 }
