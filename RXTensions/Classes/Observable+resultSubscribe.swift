@@ -1,7 +1,7 @@
 import RxSwift
 import Alamofire
 
-public extension Observable {
+public extension ObservableType {
     /// Subscribe to an observable containing an `Alamofire.Result<T>`
     func subscribe<R>(
         onSuccess: ((R) -> Void)?,
@@ -38,7 +38,7 @@ public extension Observable {
     }
 }
 
-public extension Observable {
+public extension ObservableType {
     /// Subscribe to an observable containing a `Swift.Result<T>`
     func subscribe<R>(
         onSuccess: ((R) -> Void)?,
