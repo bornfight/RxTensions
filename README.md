@@ -1,3 +1,5 @@
+Handy extensions for RxSwift.
+
 # RXTensions
 
 [![CI Status](https://img.shields.io/travis/d-srd/RXTensions.svg?style=flat)](https://travis-ci.org/d-srd/RXTensions)
