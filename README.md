@@ -1,11 +1,11 @@
-Handy extensions for RxSwift.
-
 # RXTensions
 
 [![CI Status](https://img.shields.io/travis/d-srd/RXTensions.svg?style=flat)](https://travis-ci.org/d-srd/RXTensions)
 [![Version](https://img.shields.io/cocoapods/v/RXTensions.svg?style=flat)](https://cocoapods.org/pods/RXTensions)
 [![License](https://img.shields.io/cocoapods/l/RXTensions.svg?style=flat)](https://cocoapods.org/pods/RXTensions)
 [![Platform](https://img.shields.io/cocoapods/p/RXTensions.svg?style=flat)](https://cocoapods.org/pods/RXTensions)
+
+The repository contains commonly used functions which are not the part of the RxSwift repository.
 
 ## Example
 
